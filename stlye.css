@@ -71,9 +71,44 @@ h1 {
   font-weight: 400;
   font-size: 1.5rem;
   padding-right: 9rem;
+  line-height: 2.5rem !important;
 }
 
 img {
   border-start-end-radius: 10px;
   border-end-end-radius: 10px;
+}
+.imagen-container {
+  display: -webkit-inline-flex;
+}
+.filter {
+  width: 48.5rem;
+  height: 40rem;
+  position: absolute;
+  background-color: rgba(108, 17, 161, 0.473);
+  border-start-end-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+.stats {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: COLUMN;
+  margin-right: 2rem;
+  color: var(--white-main-head-stats);
+}
+.stat h2 {
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 700;
+}
+.stat p {
+  color: var(--slightly-transparent-white-statheadings);
+  font-size: 1.2rem;
+  font-family: "Lexend Deca", sans-serif;
 }
