@@ -24,6 +24,8 @@ html {
 
 body {
   font-size: 1.6rem;
+  background-color: var(--very-dark-blue-main-bg);
+  font-family: "Inter", sans-serif;
 }
 
 .attribution {
@@ -32,4 +34,46 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.container {
+  background-color: var(--dark-desaturated-blue-cbg);
+  margin: auto;
+  margin-top: 30rem;
+  height: 40rem;
+  width: 100rem;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.info {
+  display: flex;
+  margin: 6rem 5rem;
+  flex-direction: column;
+}
+
+.info span {
+  color: var(--soft-violet-accent);
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--white-main-head-stats);
+  font-weight: 700;
+  padding-right: 2rem;
+}
+
+.paragraph {
+  margin: 2.5rem 0;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--slightly-transparent-white-main-paragraph);
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-right: 9rem;
+}
+
+img {
+  border-start-end-radius: 10px;
+  border-end-end-radius: 10px;
 }
