@@ -177,16 +177,17 @@ img {
 @media screen and (max-width: 480px) {
   .container {
     flex-wrap: wrap-reverse;
-    height: 80rem;
+    height: 66rem;
+    margin-top: 100px;
     align-content: space-between;
     justify-content: center;
+    max-width: 30rem;
   }
   .imagen-container {
     height: 30%;
   }
   img {
     width: 100%;
-    height: 100%;
     border-bottom-right-radius: 0;
     border-top-left-radius: 10px;
   }
@@ -206,23 +207,23 @@ img {
     width: 100%;
   }
   .paragraph {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     font-size: 1.4rem;
-    padding: 0 1rem;
     text-align: center;
     line-height: 2.8rem;
+    margin: 0;
   }
   h1 {
     font-size: 2.8rem;
     text-align: center;
     padding: 0;
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .stat {
     margin: 0;
-    padding: 1rem;
+    padding: 0.5rem;
     align-items: center;
   }
   h2 {
