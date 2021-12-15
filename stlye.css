@@ -181,7 +181,7 @@ img {
     margin-top: 100px;
     align-content: space-between;
     justify-content: center;
-    max-width: 30rem;
+    width: 30rem;
   }
   .imagen-container {
     height: 30%;
@@ -211,14 +211,14 @@ img {
     text-align: center;
     font-size: 1.4rem;
     text-align: center;
-    line-height: 2.8rem;
+    line-height: 2.6rem;
     margin: 0;
   }
   h1 {
     font-size: 2.8rem;
     text-align: center;
     padding: 0;
-    margin: 2rem 0;
+    margin: 1.7rem 0;
   }
 
   .stat {
